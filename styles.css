@@ -1,0 +1,55 @@
+.navbar {
+    background-color: rgb(160, 185, 120);
+    overflow: hidden;
+    display: block;
+    
+    margin-bottom: 10px;
+    height: 70px;
+
+    /* to Align children within the center of the div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.navOpt a {  
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none; 
+    font-size: 30px;
+    
+}
+
+.navbar a:hover{
+    background-color: rgb(117, 145, 94);
+}  
+
+.bookCover {
+    height: 300px;
+    background-color: rgb(255, 202, 142);
+    padding: 10px;
+}
+
+.bookReview {
+    background-color: antiquewhite;
+    overflow: hidden;
+    margin-top: 1vh;
+    border: 10px;
+    padding-top: 2vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    text-indent: 2vw;
+}
+.bookReview p{
+    align-items: center;
+}
+
+.partition {
+    background-color: white;
+    padding: 10px;
+}
+
+
+.addBookReview{
+    background-color: blanchedalmond;
+}
